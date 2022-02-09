@@ -8,7 +8,7 @@ I've implemented some of the features you've suggested and added a couple of my 
 
 Due to time constraints, I wrote this using the technology I know best: ReactJS and Sass. However, NextJS was new to me.
 
-## Features
+## 🌈 Features
 - Search by location
 - Filter by price
 - Filter by review
@@ -26,8 +26,8 @@ Due to time constraints, I wrote this using the technology I know best: ReactJS 
 - etc, etc, etc 😆
 
 
-## How to run?
+## 🤔 How to run?
 Once you've cloned the repo, install the dependencies, then run `yarn dev`
 
-## Deployment
-The app is deployed here:
+## 🚀 Deployment
+The app is deployed [here](https://lottie-amber.vercel.app/)

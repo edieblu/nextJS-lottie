@@ -5,6 +5,7 @@
     "name": "Eva Dovc",
     "email": "includejsdev@gmail.com"
   },
+  "license": "MIT",
   "dependencies": {
     "@heroicons/react": "^1.0.5",
     "next": "10.0.7",
