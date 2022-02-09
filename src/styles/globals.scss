@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "HartwellRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("HartwellRegular"), url(/fonts/HartwellRegular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "HartwellRegular";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("HartwellRegular"), url(/fonts/HartwellHeavy.woff) format("woff");
+}
+
 * {
   box-sizing: border-box;
 }
@@ -6,20 +22,12 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: HartwellRegular, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-}
-
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
 }

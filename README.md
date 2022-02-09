@@ -1,63 +1,33 @@
-# Next.js Sass Starter
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+# Hello Lottie folks 👋
 
-Use Sass to start your Next.js app with CSS superpowers!
+Inside this repository, you'll find a Lottie search page lookalike 😊.
 
-## ⚡️ Quick Start
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/colbyfayock/next-sass-starter)
+## Summary
 
-## 🚀 Getting Started
+I've implemented some of the features you've suggested and added a couple of my own 😊. Obviously, I ran out of time, and since I wanted to give you a rough idea of what I can do in one afternoon, I've decided to stop here.
 
-Run the following command to create a new project with this Starter:
+Due to time constraints, I wrote this using the technology I know best: ReactJS and Sass. However, NextJS was new to me.
 
-```
-yarn create next-app my-app -e https://github.com/colbyfayock/next-sass-starter
-# or
-npx create-next-app my-app -e https://github.com/colbyfayock/next-sass-starter
-```
+## Features
+- Search by location
+- Filter by price
+- Filter by review
+- Infinite scrolling
+- Lots of components 😅
+- I've styled everything from scratch
+- (And added your font! )
 
-Once the project and dependencies are finished installing, you can navigate to that directory and start up the development server with:
-```
-yarn dev
-# or
-npm run dev
-```
+## Things I would've done if I had more time
+- location pin and a map (since we already have both longitude and latitude in the json)
+- state management with `useContext`
+- individual listing pages
+- more filter option
+- ✨ loading skeleton + spinners + animations
+- etc, etc, etc 😆
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see your new project!
 
-## 🧐 What's inside?
-This Starter includes [Sass](https://sass-lang.com/) which is a way to provide superpowers to your CSS.
+## How to run?
+Once you've cloned the repo, install the dependencies, then run `yarn dev`
 
-The rest of the Starter is based off of the Next.js default starter.
-
-## 📚 Learn More About Next.js
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://colbyfayock.com/newsletter"><img src="https://avatars.githubusercontent.com/u/1045274?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Colby Fayock</b></sub></a><br /><a href="https://github.com/colbyfayock/next-sass-starter/commits?author=colbyfayock" title="Code">💻</a> <a href="https://github.com/colbyfayock/next-sass-starter/commits?author=colbyfayock" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/imadatyatalah"><img src="https://avatars.githubusercontent.com/u/70093484?v=4?s=100" width="100px;" alt=""/><br /><sub><b>imad</b></sub></a><br /><a href="https://github.com/colbyfayock/next-sass-starter/commits?author=imadatyatalah" title="Code">💻</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+## Deployment
+The app is deployed here:

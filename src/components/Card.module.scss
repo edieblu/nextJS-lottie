@@ -1,0 +1,94 @@
+@import "../styles/settings/__settings";
+
+.card {
+  margin: 1rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  min-width: 300px;
+
+  img {
+    border-radius: 10px;
+    transition: all 0.15s ease-in-out;
+    &:hover,
+    &:focus,
+    &:active {
+      border-radius: 0;
+      opacity: 0.9;
+      transform: scale(1.05);
+    }
+  }
+
+  h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+  }
+
+  p {
+    margin: 0.25rem 0.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+
+    svg {
+      height: 1rem;
+      margin-right: 0.5rem;
+      color: $green;
+    }
+  }
+}
+
+.container {
+  position: relative;
+}
+
+.title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  span {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+
+    svg {
+      height: 1rem;
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.details {
+  p {
+    font-size: 0.8rem;
+    span {
+      font-weight: 700;
+    }
+  }
+}
+
+.cta {
+  position: absolute;
+  right: 0;
+  bottom: 0rem;
+  border: none;
+  background-color: $pink;
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 700;
+  width: 4rem;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  letter-spacing: 0.5px;
+  text-align: center;
+  transition: all 0.15s ease-in-out;
+
+  &:hover,
+  &:focus,
+  &:active {
+    opacity: 0.9;
+  }
+}

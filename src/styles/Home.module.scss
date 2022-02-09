@@ -1,14 +1,12 @@
 @import "./settings/__settings";
 
 .title {
-
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
 
   a {
-
-    color: $color-primary;
+    color: $pink;
     text-decoration: none;
 
     &:hover,
@@ -16,9 +14,7 @@
     &:active {
       text-decoration: underline;
     }
-
   }
-
 }
 
 .title,
@@ -29,4 +25,8 @@
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+}
+
+.notFound {
+  margin-top: 5rem;
 }
